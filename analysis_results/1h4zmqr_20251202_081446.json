@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/KelseyRhaeTT/comments/1h4zmqr/deleted_by_user/",
+    "post_id": "1h4zmqr",
+    "subreddit": "KelseyRhaeTT",
+    "author": "[deleted]",
+    "timestamp": "2024-12-02T22:27:27",
+    "score": 15,
+    "upvote_ratio": 0.82,
+    "comment_count": 8,
+    "analysis_timestamp": "2025-12-02T08:14:46.284518",
+    "analysis_duration_seconds": 48.577058
+  },
+  "post_analysis": {
+    "content_type": "text",
+    "extracted_text": "Title: [deleted by user]\n\nBody: [removed]",
+    "entities": {
+      "organizations": [],
+      "people": [],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "neutral",
+      "intensity": "low",
+      "emotional_tone": "unknown",
+      "targets": {}
+    },
+    "core_issue": "The core issue of the post is unknown as its content was deleted by the user and subsequently removed.",
+    "irony_or_contradiction": null,
+    "summaries": {
+      "one_sentence": "The Reddit post content was deleted by the user and removed, making its original topic and details unknown.",
+      "actionable": "No actionable information can be derived from this post as its content is unavailable. To understand the context or original intent, one would need access to the post before its deletion and removal.",
+      "analytical": "This Reddit post, found in the 'KelseyRhaeTT' subreddit, consists solely of placeholders indicating that the title was '[deleted by user]' and the body was '[removed]'. This complete lack of content prevents any meaningful analysis regarding its original topic, sentiment, entities, or purpose. Such a state typically results from a user choosing to delete their own submission or moderators removing it due to policy violations or other reasons, rendering the post's original context irretrievable from the provided data."
+    },
+    "classification": {
+      "type": "other",
+      "topics": []
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 9,
+    "total_processed": 9,
+    "high_quality_count": 7,
+    "sentiment_distribution": {
+      "supportive": 2,
+      "neutral": 4,
+      "critical": 0,
+      "sarcastic": 1,
+      "implicitly supportive": 1,
+      "implicitly aligned": 1
+    },
+    "intent_distribution": {
+      "SUPPORTIVE": 2,
+      "CRITICAL": 3,
+      "HUMOROUS": 1,
+      "QUESTIONING": 2,
+      "N/A": 1
+    },
+    "top_comments": [
+      {
+        "id": "m02kkik",
+        "body": "They don't even know how to use Excel 🤭",
+        "author": "ArmchairPsych420",
+        "score": 12,
+        "created_utc": "2024-12-02T23:46:21",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "5",
+        "quality_score": 6.5,
+        "intent_primary": "CRITICAL",
+        "intent_secondary": "HUMOROUS",
+        "sentiment": {
+          "toward_op": "implicitly aligned",
+          "toward_subject": "negative",
+          "overall_tone": "dismissive"
+        },
+        "key_insights": [
+          "KR is perceived as lacking basic skills, specifically in using Excel.",
+          "This suggests KR might have presented financial data poorly or incorrectly, reinforcing skepticism about her claims."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 8.0,
+        "text": "They don't even know how to use Excel 🤭"
+      },
+      {
+        "id": "m03oseo",
+        "body": "Awesome! Those 9-5 jobs can come in handy 😂",
+        "author": "Aggressive-Run2536",
+        "score": 10,
+        "created_utc": "2024-12-03T03:16:03",
+        "depth": 2,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "6",
+        "quality_score": 6.5,
+        "intent_primary": "SUPPORTIVE",
+        "intent_secondary": "HUMOROUS",
+        "sentiment": {
+          "toward_op": "supportive",
+          "toward_subject": "implicitly negative",
+          "overall_tone": "celebratory"
+        },
+        "key_insights": [
+          "OP likely highlighted the benefits or reliability of having a traditional 9-5 job.",
+          "The comment affirms this point, possibly contrasting it with KR's non-traditional or unstable financial situation."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 8.0,
+        "text": "Awesome! Those 9-5 jobs can come in handy 😂"
+      },
+      {
+        "id": "m0547lc",
+        "body": "Kudos to you!!! Those 9 to 5’s come in handy 🤪 mine just shows me my debt 💸 but I will say no matter what I’m in a better place financially than KR",
+        "author": "LoudHeart6421",
+        "score": 8,
+        "created_utc": "2024-12-03T08:19:05",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "1",
+        "quality_score": 8.0,
+        "intent_primary": "SUPPORTIVE",
+        "intent_secondary": "CRITICAL",
+        "sentiment": {
+          "toward_op": "supportive",
+          "toward_subject": "negative",
+          "overall_tone": "celebratory"
+        },
+        "key_insights": [
+          "OP likely discussed their financial stability derived from a traditional 9-5 job.",
+          "The commenter believes they are in a better financial position than 'KR'.",
+          "KR is perceived as financially unstable or less successful."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [
+          "Commenter's own experience with a 9-5 job showing debt, but still feeling financially superior to KR."
+        ],
+        "relevance_score": 9.0,
+        "text": "Kudos to you!!! Those 9 to 5’s come in handy 🤪 mine just shows me my debt 💸 but I will say no matter what I’m in a better place financially than KR"
+      },
+      {
+        "id": "m030dwg",
+        "body": "Put up or shut up, KR.  \nDouble. Dog. Dare. You.",
+        "author": "Suspicious-Emu-716",
+        "score": 8,
+        "created_utc": "2024-12-03T01:07:58",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "4",
+        "quality_score": 6.0,
+        "intent_primary": "CRITICAL",
+        "intent_secondary": "CHALLENGING",
+        "sentiment": {
+          "toward_op": "implicitly supportive",
+          "toward_subject": "negative",
+          "overall_tone": "confrontational"
+        },
+        "key_insights": [
+          "KR has made claims that are being doubted or challenged by the community.",
+          "The community is demanding proof or an end to KR's claims."
+        ],
+        "actionable_advice": [
+          "KR should provide proof for her claims or stop making them."
+        ],
+        "shared_experiences": [],
+        "relevance_score": 8.0,
+        "text": "Put up or shut up, KR.  \nDouble. Dog. Dare. You."
+      },
+      {
+        "id": "m034apa",
+        "body": "Did she post this chart?!? 💀",
+        "author": "Aggressive-Run2536",
+        "score": 7,
+        "created_utc": "2024-12-03T01:28:22",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "7",
+        "quality_score": 5.0,
+        "intent_primary": "QUESTIONING",
+        "intent_secondary": "CRITICAL",
+        "sentiment": {
+          "toward_op": "neutral",
+          "toward_subject": "negative",
+          "overall_tone": "skeptical"
+        },
+        "key_insights": [
+          "A 'chart' or graphic was involved in the discussion, likely posted by KR.",
+          "The commenter's reaction ('💀') suggests the chart was either shocking, poorly made, or indicative of KR's questionable financial situation, linking to previous mentions of untrustworthy graphics."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 8.0,
+        "text": "Did she post this chart?!? 💀"
+      },
+      {
+        "id": "m05gste",
+        "body": "She won't know what liquidity means 🤣 \n\nIf she does send anything, it needs to show her name/credentials and not be photoshopped! I still don't trust the graphic she posted about her credit score.",
+        "author": "NeverTooLate4Now",
+        "score": 6,
+        "created_utc": "2024-12-03T09:41:22",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "2",
+        "quality_score": 7.5,
+        "intent_primary": "CRITICAL",
+        "intent_secondary": "SOLUTION",
+        "sentiment": {
+          "toward_op": "neutral",
+          "toward_subject": "negative",
+          "overall_tone": "skeptical"
+        },
+        "key_insights": [
+          "KR is perceived as financially illiterate, specifically regarding 'liquidity'.",
+          "KR has a history of posting untrustworthy or photoshopped financial graphics, particularly about her credit score.",
+          "The community demands verifiable, unedited proof from KR for any financial claims."
+        ],
+        "actionable_advice": [
+          "KR should send proof that shows her name/credentials and is not photoshopped."
+        ],
+        "shared_experiences": [],
+        "relevance_score": 9.0,
+        "text": "She won't know what liquidity means 🤣 \n\nIf she does send anything, it needs to show her name/credentials and not be photoshopped! I still don't trust the graphic she posted about her credit score."
+      },
+      {
+        "id": "m04vffj",
+        "body": "Does she actually check this thread?",
+        "author": "runaround2401",
+        "score": 6,
+        "created_utc": "2024-12-03T07:25:16",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "8",
+        "quality_score": 5.0,
+        "intent_primary": "QUESTIONING",
+        "intent_secondary": null,
+        "sentiment": {
+          "toward_op": "neutral",
+          "toward_subject": "neutral",
+          "overall_tone": "curious"
+        },
+        "key_insights": [
+          "KR is a known entity who might be monitoring the Reddit discussion about her.",
+          "This suggests an ongoing public interest or saga surrounding KR and her activities."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 7.0,
+        "text": "Does she actually check this thread?"
+      }
+    ],
+    "all_insights": [
+      "KR has a history of posting untrustworthy or photoshopped financial graphics, particularly about her credit score.",
+      "This suggests KR might have presented financial data poorly or incorrectly, reinforcing skepticism about her claims.",
+      "This suggests an ongoing public interest or saga surrounding KR and her activities.",
+      "The community demands verifiable, unedited proof from KR for any financial claims.",
+      "A 'chart' or graphic was involved in the discussion, likely posted by KR.",
+      "The comment affirms this point, possibly contrasting it with KR's non-traditional or unstable financial situation.",
+      "KR is a known entity who might be monitoring the Reddit discussion about her.",
+      "KR has made claims that are being doubted or challenged by the community.",
+      "The commenter believes they are in a better financial position than 'KR'.",
+      "OP likely highlighted the benefits or reliability of having a traditional 9-5 job.",
+      "KR is perceived as financially unstable or less successful.",
+      "The commenter's reaction ('💀') suggests the chart was either shocking, poorly made, or indicative of KR's questionable financial situation, linking to previous mentions of untrustworthy graphics.",
+      "OP likely discussed their financial stability derived from a traditional 9-5 job.",
+      "KR is perceived as financially illiterate, specifically regarding 'liquidity'.",
+      "The community is demanding proof or an end to KR's claims.",
+      "KR is perceived as lacking basic skills, specifically in using Excel."
+    ],
+    "all_advice": [
+      "KR should send proof that shows her name/credentials and is not photoshopped.",
+      "KR should provide proof for her claims or stop making them."
+    ]
+  },
+  "synthesis": {
+    "executive_summary": "The deleted post likely concerned the financial claims or situation of an individual referred to as 'KR,' contrasting it with the stability of traditional employment. The community expresses high skepticism towards KR, perceiving her as financially illiterate and untrustworthy, demanding verifiable proof for her claims.",
+    "key_issue": "The core issue revolves around the perceived financial instability, lack of transparency, and questionable competence of 'KR,' particularly concerning her financial claims and the reliability of any data she presents.",
+    "community_consensus": {
+      "validation_status": "questioned",
+      "agreement_level": "high",
+      "top_solutions": [
+        "KR should provide verifiable and unedited financial documentation.",
+        "KR needs to demonstrate basic financial literacy (e.g., Excel, liquidity).",
+        "The community should continue to demand proof for KR's claims."
+      ],
+      "sentiment_breakdown": {
+        "supportive": 30,
+        "critical": 60,
+        "neutral": 10
+      },
+      "validation": "questioned"
+    },
+    "context_and_background": "The comments strongly suggest the original post, now deleted, highlighted the benefits of traditional 9-5 employment, likely in contrast to the financial situation or claims of an individual named 'KR.' The community perceives KR as financially unstable, lacking basic financial skills (like using Excel or understanding liquidity), and having a history of presenting untrustworthy or photoshopped financial graphics (e.g., credit score charts). There's a clear demand for KR to 'put up or shut up' and provide legitimate, verifiable proof for any financial assertions she makes.",
+    "recommended_actions": [
+      "For KR (if monitoring): Provide clear, verifiable, and unedited financial documentation to substantiate any claims.",
+      "For the community: Maintain a critical stance and continue to demand transparency and verifiable proof when KR makes financial assertions.",
+      "For OP (if reposting): Continue to highlight the value of financial literacy and stable employment, potentially using KR's situation as a cautionary tale, while ensuring any claims about KR are well-substantiated."
+    ],
+    "key_insights": [
+      "'KR' is a central figure whose financial claims and competence are under intense scrutiny.",
+      "There's a strong perception that KR lacks basic financial literacy and skills (e.g., Excel, understanding liquidity).",
+      "KR has a history of posting untrustworthy or photoshopped financial graphics.",
+      "The community values the stability of traditional 9-5 jobs, contrasting it with KR's perceived financial instability.",
+      "There's a collective demand for KR to provide verifiable, unedited proof for her financial statements."
+    ],
+    "systemic_patterns": [
+      "A recurring pattern of skepticism and distrust surrounds KR's financial disclosures. The community consistently challenges her claims, demands proof, and points to a history of unreliable information, indicating a broader issue of transparency and accountability expected from KR."
+    ],
+    "notable_perspectives": [
+      "The stark contrast drawn between the financial security offered by traditional 9-5 jobs and KR's perceived precarious financial state.",
+      "The specific demand for KR to understand fundamental financial concepts like 'liquidity' and to use basic tools like 'Excel.'",
+      "The community's collective memory of past untrustworthy graphics (e.g., credit score chart) influencing current skepticism."
+    ],
+    "information_quality": {
+      "factual_accuracy": "unknown",
+      "expert_input": "none",
+      "source_citations": "none"
+    },
+    "context": "The comments strongly suggest the original post, now deleted, highlighted the benefits of traditional 9-5 employment, likely in contrast to the financial situation or claims of an individual named 'KR.' The community perceives KR as financially unstable, lacking basic financial skills (like using Excel or understanding liquidity), and having a history of presenting untrustworthy or photoshopped financial graphics (e.g., credit score charts). There's a clear demand for KR to 'put up or shut up' and provide legitimate, verifiable proof for any financial assertions she makes."
+  },
+  "success": true
+}

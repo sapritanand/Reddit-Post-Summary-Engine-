@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/Ureaplasma/comments/1h4ymz2/do_i_need_a_new_doctor/",
+    "post_id": "1h4ymz2",
+    "subreddit": "Ureaplasma",
+    "author": "[deleted]",
+    "timestamp": "2024-12-02T21:46:16",
+    "score": 4,
+    "upvote_ratio": 1.0,
+    "comment_count": 3,
+    "analysis_timestamp": "2025-12-02T08:16:26.150287",
+    "analysis_duration_seconds": 33.47944
+  },
+  "post_analysis": {
+    "content_type": "text",
+    "extracted_text": "Title: Do I need a new doctor \n\nBody: [removed]",
+    "entities": {
+      "organizations": [],
+      "people": [
+        "doctor"
+      ],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "negative",
+      "intensity": "low",
+      "emotional_tone": "concerned",
+      "targets": {
+        "current doctor": "negative"
+      }
+    },
+    "core_issue": "The user is questioning whether they should seek a new doctor, likely due to dissatisfaction or issues related to their current doctor's handling of a Ureaplasma-related condition.",
+    "irony_or_contradiction": null,
+    "summaries": {
+      "one_sentence": "A user on the Ureaplasma subreddit is asking for advice on whether they should get a new doctor.",
+      "actionable": "The post is a direct question about changing doctors, implying a need for guidance on when such a step is warranted, especially in the context of managing Ureaplasma. The user is seeking input on whether their current medical care is adequate or if a new perspective is needed.",
+      "analytical": "This post, despite its removed body, indicates a user's potential dissatisfaction or uncertainty regarding their current medical care for Ureaplasma. The question 'Do I need a new doctor' suggests they are seeking validation or reasons to switch providers, likely due to perceived inadequate treatment, misdiagnosis, or a poor doctor-patient relationship concerning their Ureaplasma condition. The subreddit context is crucial for understanding the specific medical area of concern, implying the user is looking for advice from others who may have experience with Ureaplasma and navigating healthcare for it."
+    },
+    "classification": {
+      "type": "question",
+      "topics": [
+        "healthcare",
+        "medical advice",
+        "Ureaplasma",
+        "doctor-patient relationship"
+      ]
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 3,
+    "total_processed": 3,
+    "high_quality_count": 2,
+    "sentiment_distribution": {
+      "supportive": 1,
+      "neutral": 1,
+      "critical": 0,
+      "helpful": 1
+    },
+    "intent_distribution": {
+      "SOLUTION": 2,
+      "EXPLANATORY": 1
+    },
+    "top_comments": [
+      {
+        "id": "m020azk",
+        "body": "Find a new doctor, possibly one off the Bible post. \n\nWhen i first got diagnosed with ureaplasma it took me multiple courses of antibiotics and retesting nearly 6-7 times until I finally got a negative result. It took me 2.5 years to finally test negative and what cured me was 2 weeks of doxycycline and azithro. \n\nBible post helped me immensely",
+        "author": "axv18",
+        "score": 3,
+        "created_utc": "2024-12-02T22:00:16",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "1",
+        "quality_score": 9.0,
+        "intent_primary": "SOLUTION",
+        "intent_secondary": "ANECDOTAL",
+        "sentiment": {
+          "toward_op": "supportive",
+          "toward_subject": "positive",
+          "overall_tone": "helpful"
+        },
+        "key_insights": [
+          "Ureaplasma treatment can be lengthy and require multiple attempts.",
+          "Doxycycline and azithromycin combination is a common and effective treatment.",
+          "The 'Bible post' is a valuable community resource for finding doctors and treatment protocols."
+        ],
+        "actionable_advice": [
+          "Find a new doctor.",
+          "Consult the 'Bible post' for doctor recommendations and treatment strategies.",
+          "Consider a 2-week course of doxycycline and azithromycin."
+        ],
+        "shared_experiences": [
+          "Personal struggle with Ureaplasma for 2.5 years.",
+          "Multiple failed antibiotic courses (6-7 times).",
+          "Achieved negative result with 2 weeks of doxycycline and azithromycin."
+        ],
+        "relevance_score": 9.5,
+        "text": "Find a new doctor, possibly one off the Bible post. \n\nWhen i first got diagnosed with ureaplasma it took me multiple courses of antibiotics and retesting nearly 6-7 times until I finally got a negative result. It took me 2.5 years to finally test negative and what cured me was 2 weeks of doxycycline and azithro. \n\nBible post helped me immensely"
+      },
+      {
+        "id": "m021kyw",
+        "body": "Thank you for sharing. \n\nI am allergic to doxy although at this point I would risk taking it if it’s going to get rid of it. \n\nI have taken azithro, erithro, and metro.",
+        "author": "No-Eagle-4540",
+        "score": 1,
+        "created_utc": "2024-12-02T22:07:05",
+        "depth": 1,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "2",
+        "quality_score": 6.0,
+        "intent_primary": "EXPLANATORY",
+        "intent_secondary": "ACKNOWLEDGEMENT",
+        "sentiment": {
+          "toward_op": "neutral",
+          "toward_subject": "negative",
+          "overall_tone": "desperate"
+        },
+        "key_insights": [
+          "OP has a doxycycline allergy but is desperate enough to consider risking it.",
+          "OP has already tried azithromycin, erythromycin, and metronidazole without success."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 8.0,
+        "text": "Thank you for sharing. \n\nI am allergic to doxy although at this point I would risk taking it if it’s going to get rid of it. \n\nI have taken azithro, erithro, and metro."
+      }
+    ],
+    "all_insights": [
+      "OP has a doxycycline allergy but is desperate enough to consider risking it.",
+      "OP has already tried azithromycin, erythromycin, and metronidazole without success.",
+      "Ureaplasma treatment can be lengthy and require multiple attempts.",
+      "Doxycycline and azithromycin combination is a common and effective treatment.",
+      "The 'Bible post' is a valuable community resource for finding doctors and treatment protocols."
+    ],
+    "all_advice": [
+      "Consider a 2-week course of doxycycline and azithromycin.",
+      "Consult the 'Bible post' for doctor recommendations and treatment strategies.",
+      "Find a new doctor."
+    ]
+  },
+  "synthesis": {
+    "executive_summary": "The user is questioning their current doctor's handling of Ureaplasma, and the top comment strongly advises seeking a new doctor, potentially utilizing community resources like the 'Bible post' for effective treatment protocols involving doxycycline and azithromycin, acknowledging the condition's persistent nature. The user's allergy to doxycycline adds a significant challenge to their treatment options.",
+    "key_issue": "The user is questioning whether they should seek a new doctor, likely due to dissatisfaction or issues related to their current doctor's handling of a Ureaplasma-related condition.",
+    "community_consensus": {
+      "validation_status": "validated",
+      "agreement_level": "high",
+      "top_solutions": [
+        "Find a new doctor",
+        "Consult the 'Bible post' for treatment protocols and doctor recommendations",
+        "Consider a combination of doxycycline and azithromycin for treatment"
+      ],
+      "sentiment_breakdown": {
+        "supportive": 50,
+        "critical": 0,
+        "neutral": 50
+      },
+      "validation": "validated"
+    },
+    "context_and_background": "The comments highlight that Ureaplasma treatment can be complex, lengthy, and often requires multiple courses of antibiotics. Community-driven resources like the 'Bible post' are crucial for individuals seeking effective treatment strategies and doctor recommendations, especially when conventional medical approaches prove insufficient. The user's allergy to doxycycline presents a significant challenge in treatment, despite its common efficacy.",
+    "recommended_actions": [
+      "Seek a new doctor, specifically one knowledgeable about persistent Ureaplasma infections.",
+      "Consult the community's 'Bible post' for recommended doctors and detailed treatment protocols.",
+      "Discuss alternative antibiotic combinations with a new doctor, considering the user's doxycycline allergy, while acknowledging their desperation to try even risky options.",
+      "Prepare for a potentially long treatment journey involving multiple antibiotic courses and retesting."
+    ],
+    "key_insights": [
+      "Dissatisfaction with current medical care for Ureaplasma often warrants seeking a new doctor.",
+      "Ureaplasma infections can be highly persistent, requiring multiple and sometimes prolonged courses of antibiotics.",
+      "A common effective treatment protocol involves a combination of doxycycline and azithromycin.",
+      "Community resources like the 'Bible post' are vital for patients navigating difficult Ureaplasma treatments and finding suitable healthcare providers.",
+      "Patient-specific factors, such as allergies (e.g., to doxycycline), significantly complicate treatment choices."
+    ],
+    "systemic_patterns": [
+      "Difficulty in effectively treating Ureaplasma within standard medical practice, leading patients to seek advice and solutions from online communities.",
+      "The existence of community-curated 'Bible posts' suggests a gap in mainstream medical knowledge or treatment efficacy for certain conditions like Ureaplasma, forcing patients to become their own advocates and share successful protocols.",
+      "Patients often face prolonged suffering and multiple failed treatments before finding relief."
+    ],
+    "notable_perspectives": [
+      "The strong recommendation to consult the 'Bible post' as a primary resource for finding doctors and treatment, indicating its significant value within the Ureaplasma community.",
+      "The user's expressed desperation to take doxycycline despite a known allergy, highlighting the severe impact of the condition and the perceived lack of effective alternatives."
+    ],
+    "information_quality": {
+      "factual_accuracy": "high",
+      "expert_input": "low",
+      "source_citations": "none"
+    },
+    "context": "The comments highlight that Ureaplasma treatment can be complex, lengthy, and often requires multiple courses of antibiotics. Community-driven resources like the 'Bible post' are crucial for individuals seeking effective treatment strategies and doctor recommendations, especially when conventional medical approaches prove insufficient. The user's allergy to doxycycline presents a significant challenge in treatment, despite its common efficacy."
+  },
+  "success": true
+}

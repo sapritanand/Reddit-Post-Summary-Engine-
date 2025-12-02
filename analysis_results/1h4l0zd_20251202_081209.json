@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/Limitlessrp/comments/1h4l0zd/deleted_by_user/",
+    "post_id": "1h4l0zd",
+    "subreddit": "Limitlessrp",
+    "author": "[deleted]",
+    "timestamp": "2024-12-02T08:25:07",
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "comment_count": 0,
+    "analysis_timestamp": "2025-12-02T08:12:09.033939",
+    "analysis_duration_seconds": 16.381527
+  },
+  "post_analysis": {
+    "content_type": "text",
+    "extracted_text": "Title: [deleted by user]\n\nBody: [removed]",
+    "entities": {
+      "organizations": [],
+      "people": [],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "neutral",
+      "intensity": "low",
+      "emotional_tone": "neutral",
+      "targets": {}
+    },
+    "core_issue": "The content of the Reddit post, including its title and body, has been deleted by the user or removed by moderators.",
+    "irony_or_contradiction": "The post exists as a placeholder, but its actual content has been removed, making it devoid of its original purpose.",
+    "summaries": {
+      "one_sentence": "The Reddit post's title and body content have been deleted or removed, leaving no discernible information.",
+      "actionable": "No actionable information can be extracted as the post's content was deleted by the user or removed by moderators. To understand the original context, one would need access to the deleted content or moderator logs.",
+      "analytical": "This Reddit post, found in the 'Limitlessrp' subreddit, currently displays '[deleted by user]' for its title and '[removed]' for its body. This indicates that the original content, which likely pertained to role-playing topics given the subreddit, is no longer accessible. The removal could be due to the user's own decision to delete their contribution or due to moderator action for violating subreddit rules. Without the original text, it is impossible to determine the post's original intent, sentiment, or specific subject matter."
+    },
+    "classification": {
+      "type": "other",
+      "topics": [
+        "post status",
+        "content moderation",
+        "user deletion"
+      ]
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 0,
+    "total_processed": 0,
+    "high_quality_count": 0,
+    "sentiment_distribution": {
+      "supportive": 0,
+      "neutral": 0,
+      "critical": 0
+    },
+    "intent_distribution": {},
+    "top_comments": [],
+    "all_insights": [],
+    "all_advice": []
+  },
+  "synthesis": {
+    "executive_summary": "The Reddit post's title and body content have been deleted or removed, rendering it inaccessible for analysis. Consequently, with no top comments available, there is no discernible information, community interaction, or sentiment to evaluate.",
+    "key_issue": "The core problem is the complete absence of the original post's content, making it impossible to determine its subject matter, intent, or any related discussion.",
+    "community_consensus": {
+      "validation_status": "not applicable",
+      "agreement_level": "not applicable",
+      "top_solutions": [],
+      "sentiment_breakdown": {
+        "supportive": 0,
+        "critical": 0,
+        "neutral": 0
+      },
+      "validation": "not applicable"
+    },
+    "context_and_background": "No broader context or background information can be provided as the post content is deleted and no comments are available to offer additional insights.",
+    "recommended_actions": [
+      "To understand the original context, investigate if moderator logs or cached versions of the post are accessible.",
+      "If the user deleted the post, consider direct communication with the user for clarification, if feasible and appropriate."
+    ],
+    "key_insights": [
+      "The complete deletion of the post's content prevents any meaningful analysis of its original topic, sentiment, or purpose.",
+      "The absence of any comments indicates a lack of public engagement or discussion surrounding the deleted post."
+    ],
+    "systemic_patterns": [],
+    "notable_perspectives": [],
+    "information_quality": {
+      "factual_accuracy": "unknown",
+      "expert_input": "no",
+      "source_citations": "no"
+    },
+    "context": "No broader context or background information can be provided as the post content is deleted and no comments are available to offer additional insights."
+  },
+  "success": true
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/PhD/comments/1h4xmpc/is_it_common_for_a_supervisor_to_be_annoyed_by_my/",
+    "post_id": "1h4xmpc",
+    "subreddit": "PhD",
+    "author": "hyehyehaha",
+    "timestamp": "2024-12-02T21:03:22",
+    "score": 0,
+    "upvote_ratio": 0.14,
+    "comment_count": 3,
+    "analysis_timestamp": "2025-12-02T08:23:07.611496",
+    "analysis_duration_seconds": 33.010305
+  },
+  "post_analysis": {
+    "content_type": "text",
+    "extracted_text": "Title: Is it common for a supervisor to be annoyed by my question?\n\nBody: In my Master programme, I felt so and he directly told me so. I dont think it is right because it is their job and they get paid by it. He was young and busy and I took a proposal I wanted not the project they wanted to be done. He took me because his boss wanted hime to do so. And choosing my phd supervisor, the plan a supervisor had no vacancy of student and the plan b prospective phd supervisor is in similar situation and I might go with the supervisor. The supervisor fit with my interest but it was terrible experience and I dont want to repeat it. Do you think I should avoid this new potential supervisor? ",
+    "entities": {
+      "organizations": [],
+      "people": [
+        "supervisor",
+        "his boss",
+        "prospective phd supervisor",
+        "new potential supervisor"
+      ],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "negative",
+      "intensity": "high",
+      "emotional_tone": "frustrated",
+      "targets": {
+        "supervisor": "negative",
+        "new potential supervisor": "negative",
+        "Master programme experience": "negative"
+      }
+    },
+    "core_issue": "The user is seeking advice on whether to avoid a potential PhD supervisor due to a past negative experience with a Master's supervisor who was annoyed by their questions and project choices, fearing a repeat of the 'terrible experience'.",
+    "irony_or_contradiction": "The user believes supervisors should answer questions as 'it is their job and they get paid by it,' which contradicts the supervisor's annoyance and the user's 'terrible experience' when asking questions.",
+    "summaries": {
+      "one_sentence": "The user is concerned about choosing a new PhD supervisor after a negative Master's experience where their supervisor was annoyed by questions and project choices, and is seeking advice on whether to avoid a similar situation.",
+      "actionable": "The user is currently deciding on a PhD supervisor and needs to determine if a potential supervisor, who fits their interest but reminds them of a past negative experience, should be avoided. Advice is sought on how to proceed with this decision.",
+      "analytical": "The user recounts a 'terrible experience' during their Master's program where their supervisor, described as young and busy, was annoyed by the user's project proposal and questions, despite the user believing it was the supervisor's job. This past experience, where the supervisor took the user due to a superior's directive rather than genuine interest in the user's chosen project, has created apprehension. Now, facing a similar situation with a prospective PhD supervisor who fits their interest but evokes memories of the past negative dynamic, the user is seeking guidance on whether to avoid this new potential supervisor to prevent a repeat of the previous dissatisfaction."
+    },
+    "classification": {
+      "type": "question",
+      "topics": [
+        "PhD",
+        "academic supervision",
+        "mentorship",
+        "student-supervisor relationship",
+        "career advice"
+      ]
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 3,
+    "total_processed": 3,
+    "high_quality_count": 1,
+    "sentiment_distribution": {
+      "supportive": 0,
+      "neutral": 3,
+      "critical": 0
+    },
+    "intent_distribution": {
+      "QUESTIONING": 2,
+      "EXPLANATORY": 1
+    },
+    "top_comments": [
+      {
+        "id": "m0235da",
+        "body": "There should be a minimum level of professionalism for sure. But we don't know what kind of questions you're asking or how often you ask them. Want to give us some examples? Thanks. ",
+        "author": "Omnimaxus",
+        "score": 4,
+        "created_utc": "2024-12-02T22:15:22",
+        "depth": 0,
+        "is_submitter": false,
+        "stickied": false,
+        "edited": false,
+        "controversiality": 0,
+        "comment_id": "1",
+        "quality_score": 7.0,
+        "intent_primary": "QUESTIONING",
+        "intent_secondary": "SOLUTION",
+        "sentiment": {
+          "toward_op": "neutral",
+          "toward_subject": "neutral",
+          "overall_tone": "helpful"
+        },
+        "key_insights": [
+          "Acknowledges the importance of supervisor professionalism.",
+          "Suggests that the OP's own behavior (type or frequency of questions) might be a contributing factor to the negative experience.",
+          "Highlights the need for more specific examples to provide tailored advice."
+        ],
+        "actionable_advice": [],
+        "shared_experiences": [],
+        "relevance_score": 8.5,
+        "text": "There should be a minimum level of professionalism for sure. But we don't know what kind of questions you're asking or how often you ask them. Want to give us some examples? Thanks. "
+      }
+    ],
+    "all_insights": [
+      "Acknowledges the importance of supervisor professionalism.",
+      "Suggests that the OP's own behavior (type or frequency of questions) might be a contributing factor to the negative experience.",
+      "Highlights the need for more specific examples to provide tailored advice."
+    ],
+    "all_advice": []
+  },
+  "synthesis": {
+    "executive_summary": "The user is deeply concerned about selecting a PhD supervisor, fearing a repeat of a 'terrible experience' with a Master's supervisor who was annoyed by their questions and project choices. The community's top response acknowledges the importance of supervisor professionalism but immediately shifts focus to the user's own behavior, requesting specific examples of their questions to provide more tailored advice.",
+    "key_issue": "The user is seeking advice on whether to avoid a potential PhD supervisor due to a past negative experience with a Master's supervisor who was annoyed by their questions and project choices, fearing a repeat of the 'terrible experience'.",
+    "community_consensus": {
+      "validation_status": "questioned",
+      "agreement_level": "low",
+      "top_solutions": [],
+      "sentiment_breakdown": {
+        "supportive": 0,
+        "critical": 0,
+        "neutral": 100
+      },
+      "validation": "questioned"
+    },
+    "context_and_background": "The primary context provided by the community is the suggestion that the user's own behavior, specifically the type and frequency of questions asked, might be a contributing factor to the negative supervisory experience. This adds a layer of self-reflection to the user's initial narrative, which primarily focuses on the supervisor's annoyance.",
+    "recommended_actions": [
+      "Provide specific examples of the questions asked to the previous Master's supervisor.",
+      "Detail the frequency of these questions."
+    ],
+    "key_insights": [
+      "The user's past negative experience with a Master's supervisor (annoyance at questions/project choices) is a significant driver of their current apprehension regarding a new PhD supervisor.",
+      "The community emphasizes the importance of supervisor professionalism but also highlights the potential role of the user's own communication style and frequency of questions.",
+      "More specific information from the user regarding their interactions (e.g., examples of questions) is deemed crucial for providing accurate and helpful advice."
+    ],
+    "systemic_patterns": [],
+    "notable_perspectives": [
+      "The perspective that the user's own questioning style or frequency might be a factor, rather than solely the supervisor's disposition, is a notable counterpoint to the user's initial framing."
+    ],
+    "information_quality": {
+      "factual_accuracy": "unknown",
+      "expert_input": "no",
+      "source_citations": "no"
+    },
+    "context": "The primary context provided by the community is the suggestion that the user's own behavior, specifically the type and frequency of questions asked, might be a contributing factor to the negative supervisory experience. This adds a layer of self-reflection to the user's initial narrative, which primarily focuses on the supervisor's annoyance."
+  },
+  "success": true
+}

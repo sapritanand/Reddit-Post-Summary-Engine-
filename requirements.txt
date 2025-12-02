@@ -1,0 +1,31 @@
+# Reddit Analysis System - Dependencies
+
+# Reddit API
+praw==7.7.1
+
+# Google Gemini API
+google-generativeai==0.3.2
+
+# OCR Libraries
+pytesseract==0.3.10
+easyocr==1.7.0
+Pillow==10.1.0
+
+# Web Scraping
+beautifulsoup4==4.12.2
+requests==2.31.0
+newspaper3k==0.2.8
+lxml==4.9.3
+
+# Data Processing
+python-dateutil==2.8.2
+
+# Configuration
+PyYAML==6.0.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-mock==3.12.0

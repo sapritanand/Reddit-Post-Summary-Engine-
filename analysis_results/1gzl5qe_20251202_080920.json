@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/prettyladiesNSFW/comments/1gzl5qe/my_face_always_looks_great_with_my_naked_body/",
+    "post_id": "1gzl5qe",
+    "subreddit": "prettyladiesNSFW",
+    "author": "leynnerxcutie",
+    "timestamp": "2024-11-25T20:47:31",
+    "score": 5,
+    "upvote_ratio": 0.74,
+    "comment_count": 0,
+    "analysis_timestamp": "2025-12-02T08:09:20.145345",
+    "analysis_duration_seconds": 24.646476
+  },
+  "post_analysis": {
+    "content_type": "image",
+    "extracted_text": "Title: My face always looks great with my naked body",
+    "entities": {
+      "organizations": [],
+      "people": [],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "neutral",
+      "intensity": "medium",
+      "emotional_tone": "neutral",
+      "targets": {}
+    },
+    "core_issue": "Unable to analyze",
+    "irony_or_contradiction": null,
+    "summaries": {
+      "one_sentence": "Analysis unavailable",
+      "actionable": "Analysis unavailable",
+      "analytical": "Analysis unavailable"
+    },
+    "classification": {
+      "type": "other",
+      "topics": []
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 0,
+    "total_processed": 0,
+    "high_quality_count": 0,
+    "sentiment_distribution": {
+      "supportive": 0,
+      "neutral": 0,
+      "critical": 0
+    },
+    "intent_distribution": {},
+    "top_comments": [],
+    "all_insights": [],
+    "all_advice": []
+  },
+  "synthesis": {
+    "executive_summary": "Synthesis unavailable",
+    "key_issue": "Unable to synthesize",
+    "community_consensus": {
+      "validation_status": "unknown",
+      "agreement_level": "unknown",
+      "top_solutions": [],
+      "sentiment_breakdown": {},
+      "validation": "unknown"
+    },
+    "context_and_background": "Unavailable",
+    "recommended_actions": [],
+    "key_insights": [],
+    "systemic_patterns": [],
+    "notable_perspectives": [],
+    "information_quality": {
+      "factual_accuracy": "unknown",
+      "expert_input": "unknown",
+      "source_citations": "unknown"
+    },
+    "context": "Unavailable"
+  },
+  "success": true
+}

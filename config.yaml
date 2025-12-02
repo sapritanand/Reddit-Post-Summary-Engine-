@@ -1,0 +1,70 @@
+# Reddit Analysis System Configuration
+
+reddit:
+  client_id: "YOUR_REDDIT_CLIENT_ID"
+  client_secret: "YOUR_REDDIT_CLIENT_SECRET"
+  user_agent: "RedditAnalyzer/1.0 by YourUsername"
+
+gemini:
+  api_key: "YOUR_GEMINI_API_KEY"
+  model: "models/gemini-2.5-pro"
+  temperature: 0.3
+  max_tokens: 8192
+
+processing:
+  # Cache expiry in hours
+  cache_expiry_hours: 24
+  
+  # Maximum number of comments to process
+  max_comments_process: 100
+  
+  # Minimum quality score for comments (0-10)
+  comment_quality_threshold: 2.0
+  
+  # Batch size for Gemini API calls
+  batch_size: 20
+  
+  # OCR language (for Tesseract/EasyOCR)
+  ocr_language: "en"
+  
+  # Use EasyOCR instead of Tesseract (set to true if Tesseract not installed)
+  use_easyocr: false
+  
+  # Skip OCR entirely if both unavailable
+  skip_ocr_if_unavailable: true
+
+  # Use Gemini Vision for image text extraction
+  use_gemini_vision: true
+
+  # Enable parallel processing for faster comment analysis
+  use_parallel_processing: true
+  
+  # Link fetch timeout in seconds
+  link_fetch_timeout: 10
+  
+  # Retry settings
+  max_retries: 3
+  retry_delay: 2
+
+output:
+  # Output format: json, markdown, or both
+  format: "both"
+  
+  # Save results to file
+  save_to_file: true
+  
+  # Output directory
+  output_directory: "./analysis_results"
+  
+  # Pretty print JSON
+  json_indent: 2
+
+logging:
+  # Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file location
+  log_file: "./logs/reddit_analyzer.log"
+  
+  # Log format
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

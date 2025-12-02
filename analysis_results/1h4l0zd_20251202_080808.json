@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "post_url": "https://reddit.com/r/Limitlessrp/comments/1h4l0zd/deleted_by_user/",
+    "post_id": "1h4l0zd",
+    "subreddit": "Limitlessrp",
+    "author": "[deleted]",
+    "timestamp": "2024-12-02T08:25:07",
+    "score": 1,
+    "upvote_ratio": 1.0,
+    "comment_count": 0,
+    "analysis_timestamp": "2025-12-02T08:08:08.582870",
+    "analysis_duration_seconds": 10.090814
+  },
+  "post_analysis": {
+    "content_type": "text",
+    "extracted_text": "Title: [deleted by user]\n\nBody: [removed]",
+    "entities": {
+      "organizations": [],
+      "people": [],
+      "products": [],
+      "locations": []
+    },
+    "sentiment": {
+      "primary": "neutral",
+      "intensity": "medium",
+      "emotional_tone": "neutral",
+      "targets": {}
+    },
+    "core_issue": "Unable to analyze",
+    "irony_or_contradiction": null,
+    "summaries": {
+      "one_sentence": "Analysis unavailable",
+      "actionable": "Analysis unavailable",
+      "analytical": "Analysis unavailable"
+    },
+    "classification": {
+      "type": "other",
+      "topics": []
+    }
+  },
+  "comments_analysis": {
+    "total_fetched": 0,
+    "total_processed": 0,
+    "high_quality_count": 0,
+    "sentiment_distribution": {
+      "supportive": 0,
+      "neutral": 0,
+      "critical": 0
+    },
+    "intent_distribution": {},
+    "top_comments": [],
+    "all_insights": [],
+    "all_advice": []
+  },
+  "synthesis": {
+    "executive_summary": "Synthesis unavailable",
+    "key_issue": "Unable to synthesize",
+    "community_consensus": {
+      "validation_status": "unknown",
+      "agreement_level": "unknown",
+      "top_solutions": [],
+      "sentiment_breakdown": {},
+      "validation": "unknown"
+    },
+    "context_and_background": "Unavailable",
+    "recommended_actions": [],
+    "key_insights": [],
+    "systemic_patterns": [],
+    "notable_perspectives": [],
+    "information_quality": {
+      "factual_accuracy": "unknown",
+      "expert_input": "unknown",
+      "source_citations": "unknown"
+    },
+    "context": "Unavailable"
+  },
+  "success": true
+}
