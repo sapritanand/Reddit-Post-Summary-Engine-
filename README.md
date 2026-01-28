@@ -1,8 +1,7 @@
 # Reddit Post Summary Engine
 
 A small, flexible engine to fetch Reddit posts/threads and generate concise summaries. This project is useful for quickly understanding the contents of a post or thread without reading every comment — ideal for research, monitoring, or content curation workflows.
-
-> NOTE: This README is a template. Adjust configuration keys, commands, and dependency names to match the actual implementation of this repository.
+.
 
 ## Features
 
