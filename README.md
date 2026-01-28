@@ -1,273 +1,145 @@
-# Reddit Post & Comment Analysis System
+# Reddit Post Summary Engine
 
-A comprehensive Python-based system that analyzes Reddit posts and comments to extract meaningful insights, sentiment, and summaries using Google's Gemini API.
+A small, flexible engine to fetch Reddit posts/threads and generate concise summaries. This project is useful for quickly understanding the contents of a post or thread without reading every comment — ideal for research, monitoring, or content curation workflows.
+
+> NOTE: This README is a template. Adjust configuration keys, commands, and dependency names to match the actual implementation of this repository.
 
 ## Features
 
-- **Multi-format Content Processing**: Handles text, images (OCR), links, and galleries
-- **Intelligent Comment Analysis**: Hierarchical comment processing with quality filtering
-- **AI-Powered Insights**: Uses Gemini API for sentiment analysis, entity extraction, and synthesis
-- **Smart Caching**: SQLite-based caching to minimize API calls and processing time
-- **Comprehensive Output**: Structured JSON output with executive summaries and actionable insights
+- Fetch posts, comments, or entire threads from Reddit
+- Generate short and long-form summaries
+- Configurable summarization backend (e.g., OpenAI, other LLMs, or local models)
+- CLI and programmatic usage
+- Optional Docker container for consistent environment
+- Tests and basic CI-ready commands
 
-## Architecture
+## Quickstart
 
-### Phase 1: Core Data Extraction
-- Reddit scraper using PRAW
-- Content processor for images (OCR) and links
-- SQLite caching layer
+Prerequisites
+- Python 3.10+ (or the project's supported version)
+- pip
+- A Reddit API application (client ID & secret) if you use PRAW or direct Reddit calls
+- API key for your chosen LLM provider (if used)
 
-### Phase 2: Content Enrichment
-- Post enrichment (entities, sentiment, summaries)
-- Comment enrichment (quality scoring, intent classification)
-- Multi-target sentiment analysis
-
-### Phase 3: Synthesis
-- Cross-validation of post claims with comment feedback
-- Solution aggregation and ranking
-- Final comprehensive analysis generation
-
-## Installation
-
-### Prerequisites
-- Python 3.9 or higher
-- Tesseract OCR (optional, for image analysis)
-- Reddit API credentials
-- Google Gemini API key
-
-### Setup
-
-1. **Clone or download the repository**
-
-2. **Install Python dependencies**:
+Install
 ```bash
+# create virtual env (recommended)
+python -m venv .venv
+source .venv/bin/activate  # macOS / Linux
+# Windows (PowerShell): .venv\Scripts\Activate.ps1
+
 pip install -r requirements.txt
+# or, if the repo is packaged:
+pip install -e .
 ```
 
-3. **Install Tesseract OCR (optional)**:
-   - Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
-   - macOS: `brew install tesseract`
-   - Linux: `sudo apt-get install tesseract-ocr`
+Environment variables
+- REDDIT_CLIENT_ID — Reddit app client id
+- REDDIT_CLIENT_SECRET — Reddit app client secret
+- REDDIT_USER_AGENT — user agent for Reddit API
+- OPENAI_API_KEY — API key for OpenAI (if using OpenAI)
+- SUMMARY_MODEL — (optional) model name or config for local LLM backend
 
-4. **Set up credentials**:
-   - Copy `.env.example` to `.env`
-   - Fill in your Reddit API credentials and Gemini API key
-   - Alternatively, edit `config.yaml` directly
-
-### Getting Reddit API Credentials
-
-1. Go to https://www.reddit.com/prefs/apps
-2. Click "Create App" or "Create Another App"
-3. Select "script" as the app type
-4. Fill in the required fields
-5. Copy the client ID and secret
-
-### Getting Gemini API Key
-
-1. Go to https://makersuite.google.com/app/apikey
-2. Create a new API key
-3. Copy the key to your configuration
+Example (Linux/macOS)
+```bash
+export REDDIT_CLIENT_ID=xxx
+export REDDIT_CLIENT_SECRET=yyy
+export REDDIT_USER_AGENT="reddit-summary-bot:v1.0 (by /u/youruser)"
+export OPENAI_API_KEY=sk-...
+```
 
 ## Usage
 
-### Basic Usage
-
-```python
-from reddit_analyzer import RedditAnalyzer
-
-# Initialize the analyzer
-analyzer = RedditAnalyzer(
-    reddit_credentials={
-        'client_id': 'your_client_id',
-        'client_secret': 'your_client_secret',
-        'user_agent': 'RedditAnalyzer/1.0'
-    },
-    gemini_api_key='your_gemini_api_key'
-)
-
-# Analyze a single post
-result = analyzer.analyze_post_url(
-    'https://www.reddit.com/r/AskReddit/comments/example/'
-)
-
-# Access the results
-print(result['synthesis']['executive_summary'])
-print(result['post_analysis']['summaries']['one_sentence'])
-```
-
-### Command-Line Interface
-
+CLI
 ```bash
-# Analyze a single post
-python cli.py analyze "https://www.reddit.com/r/AskReddit/comments/example/"
+# summarize a single post by URL
+python -m reddit_summary_engine.cli summarize --url "https://www.reddit.com/r/.../comments/POST_ID" --length short
 
-# Analyze multiple posts
-python cli.py batch urls.txt
-
-# Use custom config
-python cli.py analyze "URL" --config custom_config.yaml
+# summarize top N comments for a thread
+python -m reddit_summary_engine.cli summarize-thread --url "..." --top-comments 20 --length long
 ```
 
-### Using Environment Variables
-
+Programmatic
 ```python
-import os
-from dotenv import load_dotenv
-from reddit_analyzer import RedditAnalyzer
+from reddit_summary_engine import Summarizer, RedditClient
 
-# Load credentials from .env file
-load_dotenv()
-
-analyzer = RedditAnalyzer.from_env()
-result = analyzer.analyze_post_url('POST_URL')
+rc = RedditClient(client_id="...", client_secret="...", user_agent="...")
+post = rc.fetch_post("https://www.reddit.com/r/.../comments/POST_ID")
+summ = Summarizer(model="openai-gpt-4").summarize(post, style="concise")
+print(summ)
 ```
 
-## Output Format
+Configuration options
+- `length` or `style` — e.g., `short`, `concise`, `detailed`
+- `max_comments` — limit how many comments are included in the summary
+- `include_media` — whether to attempt to summarize linked content/media (if supported)
+- `cache` — enable caching to avoid repeated API calls
 
-The system generates a comprehensive JSON structure:
+## Docker
 
-```json
-{
-  "metadata": {
-    "post_url": "...",
-    "subreddit": "...",
-    "author": "...",
-    "timestamp": "...",
-    "score": 1234,
-    "comment_count": 567
-  },
-  "post_analysis": {
-    "content_type": "image",
-    "extracted_text": "...",
-    "entities": {...},
-    "sentiment": {...},
-    "summaries": {...}
-  },
-  "comments_analysis": {
-    "total_processed": 50,
-    "top_comments": [...],
-    "sentiment_distribution": {...}
-  },
-  "synthesis": {
-    "executive_summary": "...",
-    "recommended_actions": [...],
-    "insights": [...]
-  }
-}
-```
-
-## Configuration
-
-Edit `config.yaml` to customize:
-
-- **Processing settings**: Cache duration, comment limits, quality thresholds
-- **Gemini parameters**: Model selection, temperature, token limits
-- **Output preferences**: Format (JSON/Markdown), save location
-- **Logging**: Level and format
-
-## Project Structure
-
-```
-Reddit/
-├── reddit_analyzer.py      # Main orchestration class
-├── reddit_scraper.py       # Reddit API interface
-├── content_processor.py    # Content extraction (OCR, links)
-├── gemini_analyzer.py      # Gemini API integration
-├── cache_manager.py        # SQLite caching layer
-├── cli.py                  # Command-line interface
-├── config.yaml             # Configuration file
-├── requirements.txt        # Python dependencies
-├── tests/                  # Unit tests
-└── analysis_results/       # Output directory
-```
-
-## Error Handling
-
-The system handles:
-- Reddit API rate limits (exponential backoff)
-- Deleted/removed posts
-- OCR failures
-- Link fetch timeouts
-- Gemini API errors
-- Malformed JSON responses
-
-## Performance
-
-- Post analysis: ~30 seconds (including API calls)
-- Comment batch (10): ~15 seconds
-- Full analysis (post + 50 comments): ~2 minutes
-- Cache hit: <1 second
-
-## Testing
-
+Build
 ```bash
-# Run all tests
-pytest tests/
-
-# Run specific test file
-pytest tests/test_reddit_scraper.py
-
-# Run with coverage
-pytest --cov=. tests/
+docker build -t reddit-summary-engine:latest .
 ```
 
-## Cost Optimization
+Run
+```bash
+docker run --rm -e REDDIT_CLIENT_ID -e REDDIT_CLIENT_SECRET -e REDDIT_USER_AGENT -e OPENAI_API_KEY reddit-summary-engine:latest \
+  python -m reddit_summary_engine.cli summarize --url "https://www.reddit.com/..."
+```
 
-- Aggressive caching (OCR, link fetching, API responses)
-- Batch processing for comments
-- Quality filtering before Gemini API calls
-- Configurable limits and thresholds
+## Tests
 
-## Limitations
+Run tests with pytest (adjust command if the repo uses a different test runner)
+```bash
+pytest
+```
 
-- Video content is not processed (logged as "unsupported")
-- Gallery posts process each image individually (may be slow)
-- Rate limits apply to both Reddit and Gemini APIs
-- OCR accuracy depends on image quality
+## Examples
+
+- Summarize a "AskReddit" thread to extract the most-common suggestions
+- Summarize a news post + top comments for quick briefing
+- Produce daily digests by summarizing multiple posts from a subreddit
+
+(Consider adding a `examples/` directory with runnable example scripts and sample outputs.)
 
 ## Contributing
 
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Submit a pull request
+Contributions are welcome! A suggested workflow:
+1. Fork the repo
+2. Create a branch: `git checkout -b feat/add-feature`
+3. Make your changes and add tests
+4. Run tests locally
+5. Open a pull request describing changes and rationale
+
+Please follow these guidelines:
+- Keep changes small and focused
+- Add or update tests for new behavior
+- Follow existing code style and linters (if any)
+
+## Roadmap / Ideas
+
+- Add thread-topic extraction
+- Provide multi-lingual summarization support
+- Add webhook / API server for on-demand summarization
+- Add integrated caching and rate-limiting for API backends
 
 ## License
 
-MIT License - See LICENSE file for details
+This repository should include a license. If you want a permissive license, add an `MIT` license file. Replace this section with the repo's actual license if already provided.
 
-## Troubleshooting
+## Acknowledgements
 
-### Common Issues
+- Reddit API
+- Any LLM provider used (OpenAI, etc.)
+- Contributors and maintainers
 
-**"PRAW authentication failed"**
-- Verify your Reddit API credentials
-- Check that user_agent is properly formatted
+## Contact
 
-**"Gemini API key invalid"**
-- Ensure your API key is active
-- Check for trailing spaces in the key
+Maintainer: sapritanand (update with preferred contact method)
 
-**"Tesseract not found"**
-- Install Tesseract OCR
-- Add Tesseract to your system PATH
+---
 
-**"Rate limit exceeded"**
-- Wait before retrying
-- Adjust retry settings in config.yaml
-
-## Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Check existing issues for solutions
-- Review the configuration documentation
-
-## Future Enhancements
-
-- Support for multiple LLM providers
-- Real-time analysis of live threads
-- Visualization dashboard
-- Trend analysis across multiple posts
-- API endpoint for external integrations
+If you'd like I can:
+- adapt the README to the exact repo implementation (I can scan files and match commands/env names),
+- or push this README.md to `main` or create a new branch and open a PR. Tell me which you prefer.
